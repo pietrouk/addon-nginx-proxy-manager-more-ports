@@ -1,11 +1,11 @@
 ---
 name: Nginx Proxy Manager
 version: dev
-slug: nginxproxymanager
+slug: nginxproxymanagermoreports
 description: Manage Nginx proxy hosts with a simple, powerful interface
 url: https://github.com/pietrouk/addon-nginx-proxy-manager-more-ports
 codenotary: codenotary@frenck.dev
-webui: http://[HOST]:[PORT:81]
+webui: http://[HOST]:[PORT:82]
 init: false
 arch:
   - aarch64
@@ -16,6 +16,7 @@ ports:
   25565: 25565
   51830: 51830
   8068: 8068
+  82: 82
 map:
   - addon_config:rw
 backup_exclude:
